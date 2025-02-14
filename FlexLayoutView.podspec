@@ -11,16 +11,17 @@ Pod::Spec.new do |s|
   s.version          = '1.0.0'
   s.summary          = 'This tool provides an intuitive interface for creating flexible layouts, enabling developers to customise elements effortlessly and manage alignment for a tailored design experience.'
   s.description      = <<-DESC
-    'This custom tool is designed to provide developers with an intuitive and efficient way to create flexible layouts. With an emphasis on simplicity and user control, it offers advanced customization options that allow developers to easily tailor elements to their specific needs. The tool includes powerful alignment controls, enabling precise placement and organization of content. Whether you are building a complex interface or a straightforward design, this tool streamlines the process, providing flexibility and ensuring that every layout is polished and perfectly aligned.'
+    'This tool enables developers to create flexible, precise layouts with simple controls and advanced customization options'
                        DESC
 
   s.homepage         = 'https://github.com/RamDeveloper19/FlexLayoutView'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Ramkumar' => 'ram.developer19@gmail.com' }
   s.source           = { :git => 'https://github.com/RamDeveloper19/FlexLayoutView.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '13.0'
+  s.swift_version = '5.0'
+  s.requires_arc = true
 
   s.source_files = 'FlexLayoutView/Classes/**/*'
   
