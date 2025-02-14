@@ -27,8 +27,10 @@ FlexLayoutView is a simple UI component of flexible layout for iOS platform.
 - SwiftUI
 
 ## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+<p align="center">
+    <img src="https://github.com/RamDeveloper19/FlexLayoutView/blob/ff6486cbe9fc5cbc3d11e1a8444a1c0fb05d2375/FlexLayoutViewPreview.png?raw=true" width="250"/>
+    <img src="https://github.com/RamDeveloper19/FlexLayoutView/blob/ff6486cbe9fc5cbc3d11e1a8444a1c0fb05d2375/FlexLayoutViewPreview1.png?raw=true" width="250"/>
+</p>
 
 ## Installation
 
