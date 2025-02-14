@@ -1,0 +1,22 @@
+{
+  "name": "FlexLayoutView",
+  "version": "0.1.0",
+  "summary": "A short description of FlexLayoutView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Ramkumar/FlexLayoutView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Ramkumar": "ram.k@applab.qa"
+  },
+  "source": {
+    "git": "https://github.com/Ramkumar/FlexLayoutView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "FlexLayoutView/Classes/**/*"
+}

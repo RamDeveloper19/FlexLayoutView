@@ -8,27 +8,19 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FlexLayoutView'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of FlexLayoutView.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
+  s.version          = '1.0'
+  s.summary          = 'This tool provides an intuitive interface for creating flexible layouts, enabling developers to customise elements effortlessly and manage alignment for a tailored design experience.'
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+    'This custom tool is designed to provide developers with an intuitive and efficient way to create flexible layouts. With an emphasis on simplicity and user control, it offers advanced customization options that allow developers to easily tailor elements to their specific needs. The tool includes powerful alignment controls, enabling precise placement and organization of content. Whether you are building a complex interface or a straightforward design, this tool streamlines the process, providing flexibility and ensuring that every layout is polished and perfectly aligned.'
                        DESC
 
   s.homepage         = 'https://github.com/Ramkumar/FlexLayoutView'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Ramkumar' => 'ram.k@applab.qa' }
+  s.author           = { 'Ramkumar' => 'ram.developer19@gmail.com' }
   s.source           = { :git => 'https://github.com/Ramkumar/FlexLayoutView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '13.0'
 
   s.source_files = 'FlexLayoutView/Classes/**/*'
   

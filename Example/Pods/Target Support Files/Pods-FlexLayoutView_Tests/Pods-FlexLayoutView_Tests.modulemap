@@ -1,0 +1,6 @@
+framework module Pods_FlexLayoutView_Tests {
+  umbrella header "Pods-FlexLayoutView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
