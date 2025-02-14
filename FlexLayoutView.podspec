@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
     'This custom tool is designed to provide developers with an intuitive and efficient way to create flexible layouts. With an emphasis on simplicity and user control, it offers advanced customization options that allow developers to easily tailor elements to their specific needs. The tool includes powerful alignment controls, enabling precise placement and organization of content. Whether you are building a complex interface or a straightforward design, this tool streamlines the process, providing flexibility and ensuring that every layout is polished and perfectly aligned.'
                        DESC
 
-  s.homepage         = 'https://github.com/Ramkumar/FlexLayoutView'
+  s.homepage         = 'https://github.com/RamDeveloper19/FlexLayoutView'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Ramkumar' => 'ram.developer19@gmail.com' }
   s.source           = { :git => 'https://github.com/RamDeveloper19/FlexLayoutView.git', :tag => s.version.to_s }
