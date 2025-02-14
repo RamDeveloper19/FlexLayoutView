@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/Ramkumar/FlexLayoutView'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Ramkumar' => 'ram.developer19@gmail.com' }
-  s.source           = { :git => 'https://github.com/Ramkumar/FlexLayoutView.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/RamDeveloper19/FlexLayoutView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '13.0'
