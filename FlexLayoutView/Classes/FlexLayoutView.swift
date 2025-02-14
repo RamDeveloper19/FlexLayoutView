@@ -1,19 +1,35 @@
 import SwiftUI
 
-struct FlexCollection<Content: View>: View {
+public struct FlexCollection<Content: View>: View {
     
-    public var HContentOuterPadding: CGFloat = 10.0
-    public var VContentOuterPadding: CGFloat = 5.0
+    public var HContentOuterPadding: CGFloat
+    public var VContentOuterPadding: CGFloat
     
-    public var alignmentOfView: Alignment = .center
+    public var alignmentOfView: Alignment
     
     public var itemCount: Int
-    public var layoutWidth: CGFloat = UIScreen.main.bounds.size.width - 40
+    public var layoutWidth: CGFloat
     
     public var createElement: (Int) -> Content
-        
-    @State private var itemWidths: [Int: CGFloat] = [:]
     
+    @State public var itemWidths: [Int: CGFloat] = [:]
+    
+    public init(
+        HContentOuterPadding: CGFloat = 10.0,
+        VContentOuterPadding: CGFloat = 5.0,
+        alignmentOfView: Alignment = .center,
+        itemCount: Int,
+        layoutWidth: CGFloat = UIScreen.main.bounds.size.width - 40,
+        createElement: @escaping (Int) -> Content
+    ) {
+        self.HContentOuterPadding = HContentOuterPadding
+        self.VContentOuterPadding = VContentOuterPadding
+        self.alignmentOfView = alignmentOfView
+        self.itemCount = itemCount
+        self.layoutWidth = layoutWidth
+        self.createElement = createElement
+    }
+
     private func layoutContent(maxWidth: CGFloat) -> [[Int]] {
         var result: [[Int]] = []
         var totalWidth = 0.0
@@ -44,7 +60,7 @@ struct FlexCollection<Content: View>: View {
         return Color.clear
     }
     
-    var body: some View {
+    public var body: some View {
         ZStack {
             Group {
                 ForEach(0..<itemCount, id: \.self) { index in
