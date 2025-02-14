@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FlexLayoutView'
-  s.version          = '1.0'
+  s.version          = '1.0.0'
   s.summary          = 'This tool provides an intuitive interface for creating flexible layouts, enabling developers to customise elements effortlessly and manage alignment for a tailored design experience.'
   s.description      = <<-DESC
     'This custom tool is designed to provide developers with an intuitive and efficient way to create flexible layouts. With an emphasis on simplicity and user control, it offers advanced customization options that allow developers to easily tailor elements to their specific needs. The tool includes powerful alignment controls, enabling precise placement and organization of content. Whether you are building a complex interface or a straightforward design, this tool streamlines the process, providing flexibility and ensuring that every layout is polished and perfectly aligned.'
