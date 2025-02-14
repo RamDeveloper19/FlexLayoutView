@@ -9,9 +9,9 @@
 Pod::Spec.new do |s|
   s.name             = 'FlexLayoutView'
   s.version          = '1.0.0'
-  s.summary          = 'This tool provides an intuitive interface for creating flexible layouts, enabling developers to customise elements effortlessly and manage alignment for a tailored design experience.'
+  s.summary          = 'This tool enables developers to create flexible, precise layouts with simple controls and advanced customization options'
   s.description      = <<-DESC
-    'This tool enables developers to create flexible, precise layouts with simple controls and advanced customization options'
+    'This tool provides an intuitive interface for creating flexible layouts, enabling developers to customise elements effortlessly and manage alignment for a tailored design experience.'
                        DESC
 
   s.homepage         = 'https://github.com/RamDeveloper19/FlexLayoutView'
