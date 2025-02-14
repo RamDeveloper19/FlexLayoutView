@@ -22,7 +22,7 @@ FlexLayoutView is a simple UI component of flexible layout for iOS platform.
 - [x] Written All By SwiftUI
 
 ## Requirements
-- iOS 16.0+
+- iOS 13.0+
 - Xcode 15.0+
 - SwiftUI
 
@@ -66,7 +66,7 @@ This SwiftUI view uses a `ZStack` with a `HStack` inside, designed to display a 
                                 .fixedSize()
                         }
                 }
-                .scrollDisabled(true)
+                .scrollDisabled(true) // iOS 16.4 Above only
                 .fixedSize(horizontal: false, vertical: true)
             }
         }
