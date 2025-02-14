@@ -2,7 +2,6 @@
 
 [![Platform](https://img.shields.io/cocoapods/p/FlexLayoutView.svg?style=flat)](https://cocoapods.org/pods/FlexLayoutView)
 [![Version](https://img.shields.io/cocoapods/v/FlexLayoutView.svg?style=flat)](https://cocoapods.org/pods/FlexLayoutView)
-[![CI Status](https://img.shields.io/travis/Ramkumar/FlexLayoutView.svg?style=flat)](https://travis-ci.org/Ramkumar/FlexLayoutView)
 [![License](https://img.shields.io/cocoapods/l/FlexLayoutView.svg?style=flat)](https://cocoapods.org/pods/FlexLayoutView)
 
 # FlexLayoutView
@@ -73,13 +72,21 @@ This SwiftUI view uses a `ZStack` with a `HStack` inside, designed to display a 
 }
  ```
  FlexCollection: A custom view that arranges items based on the specified parameters:
+   
    1、HContentOuterPadding: Horizontal padding applied to the content.
+   
    2、VContentOuterPadding: Vertical padding applied to the content.
+   
    3、alignmentOfView: Aligns the content inside the collection (in this case, leading).
+   
    4、itemCount: Defines how many items to display in the collection based on the length of randomWords.
+   
    5、layoutWidth: The width of the layout is dynamically set to the screen width minus a margin.
+   
    6、FlexLayoutView: Each item in the collection is rendered with a custom layout (FlexLayoutView) that displays the title from randomWords[index] and has a fixed size for better layout control.
+   
    7、scrollDisabled(true): Disables scrolling on the ScrollView, ensuring that the content does not scroll independently of the `ZStack` and `HStack`.
+   
    8、fixedSize: The .fixedSize(horizontal: false, vertical: true) modifier ensures that the ScrollView can expand vertically based on the content but does not grow horizontally.
  
  This layout is useful for creating a vertically scrollable, dynamically sized list of items with custom padding and alignment.
