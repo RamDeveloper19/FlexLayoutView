@@ -1,0 +1,16 @@
+PODS:
+  - FlexLayoutView (0.1.0)
+
+DEPENDENCIES:
+  - FlexLayoutView (from `../`)
+
+EXTERNAL SOURCES:
+  FlexLayoutView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FlexLayoutView: 3e7bb45d056ca2d171392561430cfa79cf6f94b9
+
+PODFILE CHECKSUM: f342ed5a02dbd8dc0a7e033ec3f2e34c7338df49
+
+COCOAPODS: 1.16.2

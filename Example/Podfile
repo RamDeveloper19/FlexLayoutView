@@ -1,0 +1,6 @@
+use_frameworks!
+target 'FlexLayoutView_Tests' do
+  pod 'FlexLayoutView', :path => '../'
+  
+  
+end

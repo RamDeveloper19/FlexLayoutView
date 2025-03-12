@@ -1,0 +1,6 @@
+framework module FlexLayoutView {
+  umbrella header "FlexLayoutView-umbrella.h"
+
+  export *
+  module * { export * }
+}
